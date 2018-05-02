@@ -7,5 +7,5 @@ def my_all?(collection)
     black_return_values << yield(collection[i])
     i += 1 
     end
-    if 
+    if black_return_values.include?(false)
 end
